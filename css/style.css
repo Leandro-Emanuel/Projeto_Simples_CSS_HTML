@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../images/bg-3.jpg);
+    height: 800px;
+    background-position: right center;
+    background-size: cover;
+    padding: 1px; /*Gambiarra*/
+    /*border-top: 1px solid red;*/
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+
+.hero-content h1{ /*Formata só o h1 que esta dentro do hero-content*/
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px#333; /* x y esfumaçamento cor*/
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+.hero nav li a{
+    background: rgba(0,0,0,0.1);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px; /*Espaço entre as letras*/
+}
+
+.hero nav li a:hover {
+    background: rgba(0,0,0,0.25);
+    
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.content-article h2{
+    background-color: #eee;
+    margin: 0;
+    padding: 5px;
+    border-bottom: solid 3px #ccc;
+}
+
+footer{
+    color: white;
+    height: 80px;
+    font-size: 14px;
+    background-color: #6b6c68;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 80px; /*Para centralizar*/
+}
