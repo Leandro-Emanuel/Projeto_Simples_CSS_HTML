@@ -24,6 +24,12 @@ body{
     font-size: 46px;
     text-shadow: 3px 3px 2px#333; /* x y esfumaçamento cor*/
 }
+.hero-content p {
+    background-color: rgba(0,0,0, .6);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
 
 .hero nav ul{
     text-align: right;
@@ -62,6 +68,25 @@ main{
     background-color: white;
     padding: 10px;
     margin-top: 15px;
+    overflow: auto; /*Para o elemtento continuar com seu tamanho mesmo com o filho de float*/
+}
+
+.card{
+    width: 32%;
+    float: left;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card p {
+    color: white;
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+    padding: 10px;
 }
 
 .content-article h2{
